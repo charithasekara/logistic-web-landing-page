@@ -49,7 +49,6 @@ export default function NewsPage() {
               className="md:basis-1/2 lg:basis-1/3 px-2"
             >
               <div className="bg-gray-50 rounded-xl overflow-hidden shadow hover:shadow-md transition h-full flex flex-col">
-                {/* Image + Date */}
                 <div className="relative w-full h-48">
                   <Image
                     src={item.image}
@@ -62,7 +61,6 @@ export default function NewsPage() {
                   </div>
                 </div>
 
-                {/* Content */}
                 <div className="p-4 flex flex-col flex-grow">
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">{item.title}</h3>
                   <p className="text-sm text-gray-600 mb-4 line-clamp-3">{item.description}</p>

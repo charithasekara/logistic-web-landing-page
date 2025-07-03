@@ -11,7 +11,7 @@ const WelcomeSection = () => {
           alt="Welcome"
           width={400}
           height={300}
-          className="border-8 border-gray-300 rounded-3xl object-cover"
+          className="border-8 border-gray-300 rounded-4xl object-cover"
         />
       </div>
 
