@@ -48,3 +48,19 @@
   font-family: 'Oxanium', sans-serif;
 }
 
+.about-right-side {
+    align-self: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: scroll 30s linear infinite;
+}

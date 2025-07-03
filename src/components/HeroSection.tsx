@@ -5,7 +5,7 @@ import { IconArrowRight } from "@tabler/icons-react";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-[400px] md:h-[600px] lg:h-[800px] overflow-hidden">
+    <div className="relative w-full h-[400px] md:h-[600px] lg:h-[800px] overflow-hidden mb-16">
       <div className="relative w-full h-full hero-mask">
         <Image
           src="/Image_fx (9).jpg"
@@ -23,10 +23,14 @@ const HeroSection = () => {
           Best Logistic Shipping Partner
         </h1>
         <p className="mt-4 text-sm md:text-base lg:text-lg max-w-lg md:max-w-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="mt-4">
-          <Button label="Discover More" icon={<IconArrowRight className="ml-2 h-5 w-5" />} />
+          <Button>
+            Discover More
+            <IconArrowRight className="ml-2 h-5 w-5" />
+          </Button>
         </div>
       </div>
     </div>

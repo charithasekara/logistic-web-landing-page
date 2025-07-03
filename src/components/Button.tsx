@@ -1,14 +1,19 @@
 "use client";
-import { IconArrowRight } from "@tabler/icons-react";
 
-const Button = ({ label, icon, ...props }) => {
+const Button = ({ children, variant = "solid", className = "", ...props }) => {
+  const baseClasses = "px-6 py-2 rounded-md transition flex items-center font-oxanium";
+
+  const solidStyles = "bg-yellow-500 text-white hover:bg-yellow-600";
+  const outlinedStyles = "border border-yellow-500 text-yellow-500 hover:text-white hover:bg-yellow-600";
+
+  const variantStyles = variant === "outlined" ? outlinedStyles : solidStyles;
+
   return (
     <button
-      className="bg-yellow-500 text-white px-6 py-2 rounded-md hover:bg-yellow-600 transition flex items-center font-oxanium"
+      className={`${baseClasses} ${variantStyles} ${className}`}
       {...props}
     >
-      {label}
-      {icon && <span className="ml-2">{icon}</span>}
+      {children}
     </button>
   );
 };
