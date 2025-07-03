@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+.hero-mask {
+  -webkit-mask-image: url('/hero-mask.svg');
+  mask-image: url('/hero-mask.svg');
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+
+    -webkit-mask-size: cover;
+  mask-size: cover;
+
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.transform {
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide-in {
+  transform: translateX(0);
+}
+
+.slide-out {
+  transform: translateX(100%);
+}
+
+
+@font-face {
+  font-family: 'Oxanium';
+  src: url('/fonts/Oxanium-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxanium';
+  src: url('/fonts/Oxanium-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-oxanium {
+  font-family: 'Oxanium', sans-serif;
+}
+
