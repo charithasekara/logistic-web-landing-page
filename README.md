@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚚 TransMax Logistics – Next.js Website
 
-## Getting Started
+A modern, responsive logistics company website built with **Next.js App Router**, **Tailwind CSS**, and **ShadCN UI**.  
+It features animated sections, service grids, carousels, testimonials, FAQ accordion, client logos, and a newsletter subscription system.
 
-First, run the development server:
+---
+
+## 📦 Features
+
+- ✅ Fully responsive layout
+- ✨ Animated hero and client logo section
+- 🧩 Bento-style services grid
+- 💬 Testimonials + FAQ accordion
+- 📰 News carousel section
+- 📧 Weekly newsletter subscription
+- ⚡ Optimized performance with `next/image`
+- 🎨 Beautiful UI with ShadCN components and Tabler Icons
+
+---
+
+## 🛠️ Tech Stack
+
+| Category         | Technology                             |
+|------------------|-----------------------------------------|
+| Framework        | [Next.js 14+ (App Router)](https://nextjs.org/docs) |
+| Styling          | [Tailwind CSS](https://tailwindcss.com) |
+| UI Components    | [ShadCN UI](https://ui.shadcn.com)       |
+| Icons            | [Tabler Icons](https://tabler.io/icons) |
+| Images           | `next/image` (automatic optimization)   |
+| Deployment       | [Vercel](https://vercel.com)            |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/transmax-logistics.git
+cd transmax-logistics
+```
+
+### 2. Install Dependencies
+
+Choose your package manager:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+### 3. Start the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+app/
+  └── layout.tsx             # Root layout
+  └── page.tsx               # Main homepage
 
-To learn more about Next.js, take a look at the following resources:
+components/
+  ├── HeroSection.tsx
+  ├── OurServices.tsx
+  ├── StatsSection.tsx
+  ├── TestimonialsSection.tsx
+  ├── ClientLogos.tsx
+  ├── NewsCarousel.tsx
+  ├── FaqAccordion.tsx
+  ├── Footer.tsx
+  └── Button.tsx
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+public/
+  └── images/                # Image assets
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+styles/
+  └── globals.css            # Tailwind base styles
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Environment Variables
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you're using APIs or external services, create a `.env.local` file like:
+
+```
+NEXT_PUBLIC_API_URL=https://api.example.com
+```
+
+---
+
+## 📤 Deployment
+
+This app is ready to deploy on [Vercel](https://vercel.com):
+
+[![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+---
+
+## 🧪 Useful Commands
+
+| Command           | Description                  |
+|------------------|------------------------------|
+| `npm run dev`     | Start the development server |
+| `npm run build`   | Build for production         |
+| `npm run start`   | Start production server      |
+| `npm run lint`    | Run ESLint                   |
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!
+
+### To Contribute:
+
+```bash
+git checkout -b feature/your-feature
+npm run dev
+# Make your changes
+git commit -m "Add your feature"
+git push origin feature/your-feature
+```
+
+Please open an issue first for major feature requests or changes.
+
+---
+
+## 👤 Author
+
+**Charitha**  
+Frontend Developer & UI/UX Engineer  
+📫 [YourEmail@example.com](mailto:youremail@example.com)  
+🌐 [GitHub Profile](https://github.com/your-username)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
