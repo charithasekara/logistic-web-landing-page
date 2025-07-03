@@ -22,12 +22,11 @@ It features animated sections, service grids, carousels, testimonials, FAQ accor
 
 | Category         | Technology                             |
 |------------------|-----------------------------------------|
-| Framework        | [Next.js 14+ (App Router)](https://nextjs.org/docs) |
+| Framework        | [Next.js 15 (App Router)](https://nextjs.org/docs) |
 | Styling          | [Tailwind CSS](https://tailwindcss.com) |
 | UI Components    | [ShadCN UI](https://ui.shadcn.com)       |
 | Icons            | [Tabler Icons](https://tabler.io/icons) |
 | Images           | `next/image` (automatic optimization)   |
-| Deployment       | [Vercel](https://vercel.com)            |
 
 ---
 
@@ -36,7 +35,7 @@ It features animated sections, service grids, carousels, testimonials, FAQ accor
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/transmax-logistics.git
+git@github.com:charithasekara/logistic-web-landing-page.git
 cd transmax-logistics
 ```
 
@@ -86,25 +85,6 @@ public/
 styles/
   └── globals.css            # Tailwind base styles
 ```
-
----
-
-## 🌐 Environment Variables
-
-If you're using APIs or external services, create a `.env.local` file like:
-
-```
-NEXT_PUBLIC_API_URL=https://api.example.com
-```
-
----
-
-## 📤 Deployment
-
-This app is ready to deploy on [Vercel](https://vercel.com):
-
-[![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/new)
-
 ---
 
 ## 🧪 Useful Commands
@@ -140,8 +120,7 @@ Please open an issue first for major feature requests or changes.
 
 **Charitha**  
 Frontend Developer & UI/UX Engineer  
-📫 [YourEmail@example.com](mailto:youremail@example.com)  
-🌐 [GitHub Profile](https://github.com/your-username)
+📫 [YourEmail@example.com](charithmadhushansekara@gmail.com)  
 
 ---
 
