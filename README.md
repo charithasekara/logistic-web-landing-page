@@ -120,7 +120,7 @@ Please open an issue first for major feature requests or changes.
 
 **Charitha**  
 Frontend Developer & UI/UX Engineer  
-📫 [YourEmail@example.com](charithmadhushansekara@gmail.com)  
+📫 [charithmadhushansekara@gmail.com]
 
 ---
 
