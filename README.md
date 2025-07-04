@@ -98,24 +98,6 @@ styles/
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome!
-
-### To Contribute:
-
-```bash
-git checkout -b feature/your-feature
-npm run dev
-# Make your changes
-git commit -m "Add your feature"
-git push origin feature/your-feature
-```
-
-Please open an issue first for major feature requests or changes.
-
----
-
 ## 👤 Author
 
 **Charitha**  
